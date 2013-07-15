@@ -1,0 +1,7 @@
+flask>=0.10.0
+flask-debugtoolbar>=0.8.0
+flask-login>=0.2.5
+flask-sqlalchemy>=0.16
+flask-testing>=0.4
+flask-wtf>=0.8.4
+flask-cache>=0.12

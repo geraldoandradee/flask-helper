@@ -7,7 +7,11 @@ flask-helper documentation
 ==========================
 
 
-Flask-Helper is a command line utility to boost start flask projects.
+Flask-Helper is a command line utility to boost start flask projects. To see all complete documentation run:
+
+    .. code-block:: bash
+
+        $ sphinx-build -b html . _build/
 
 
 Usage
@@ -15,11 +19,15 @@ Usage
 
 To create a new app you can do:
 
-    flask-helper new app
+    .. code-block:: bash
+
+        $ flask-helper new app
 
 If you create a micro project:
 
-    flask-helper new app:micro
+    .. code-block:: bash
+
+        $ flask-helper new app:micro
 
 For more information see the docs.
 
@@ -28,6 +36,8 @@ For more information see the docs.
 
 Revisions
 ---------
+
+List of all revisions.
 
 0.1
 ```
@@ -40,12 +50,3 @@ Contents:
 
 .. toctree::
    :maxdepth: 4
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

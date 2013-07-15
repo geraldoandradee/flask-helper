@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Flask-Helper documentation build configuration file, created by
-# sphinx-quickstart on Mon Jul 15 16:04:31 2013.
+# sphinx-quickstart on Mon Jul 15 16:12:34 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Flask-Helper'
-copyright = u'2013, Geraldo Andrade'
+copyright = u'2013, Geraldo Andrade <geraldo@geraldoandrade.com>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'Flask-Helper.tex', u'Flask-Helper Documentation',
-   u'Geraldo Andrade', 'manual'),
+   u'Geraldo Andrade \\textless{}geraldo@geraldoandrade.com\\textgreater{}', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,7 +214,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'flask-helper', u'Flask-Helper Documentation',
-     [u'Geraldo Andrade'], 1)
+     [u'Geraldo Andrade <geraldo@geraldoandrade.com>'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Flask-Helper', u'Flask-Helper Documentation',
-   u'Geraldo Andrade', 'Flask-Helper', 'One line description of project.',
+   u'Geraldo Andrade <geraldo@geraldoandrade.com>', 'Flask-Helper', 'One line description of project.',
    'Miscellaneous'),
 ]
 
